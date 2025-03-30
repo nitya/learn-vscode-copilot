@@ -1,0 +1,17 @@
+/*
+ * Custom Styling Here 
+ * See: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=theme+palett#custom-colors
+ * See: https://squidfunk.github.io/mkdocs-material/customization/#additional-css
+ */
+
+/* --- My Color Palette --- */
+:root  > * {
+    --md-primary-fg-color: #e60d66;
+    --md-primary-fg-color--light: #d48d59;
+    --md-primary-fg-color--dark:  #17131d;
+  }
+  
+  [data-md-color-scheme="slate"] {
+    --md-hue: 20; 
+  }
+  
